@@ -1,0 +1,195 @@
+
+body{
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+#title
+{
+  /* You can use this for gradient background */
+    background-image: linear-gradient(rgba(255,88,100,1),rgba(253,41,123,1)) ;
+    color: #ffffff;
+    text-align:left;
+}
+h1, h3{
+    font-family: 'Ubuntu',sans-serif;
+}
+h2{
+  font-family: 'Merriweather',serif;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+
+
+/* Navigation Bar*/
+.logo{
+  width: 7%;
+}
+.navbar{
+  background-image:linear-gradient(to right,rgba(255,88,100,0),rgba(255,88,100,0.2),rgba(253,41,123,0.4),rgba(253,41,123,0.4),rgba(255,88,100,0));
+}
+.navbar-brand{
+  font-family: 'Merriweather', serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 18px;
+}
+.nav-link{
+  font-size: 1.4rem;
+  font-family: "Montserrat-light";
+}
+
+/* Download button */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Section*/
+.cf-1{
+  padding: 5% 10% 0 10%;
+}
+.big-heading{
+
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.title-img{
+    width: 80%;
+    position: relative;
+    left:15%;
+    bottom: 7%;
+}
+.title-box{
+  padding-top: 10%;
+}
+
+/* Features */
+
+#features{
+  padding: 7% 10%
+}
+.feature-title{
+    font-weight: bold;
+}
+.features-box{
+  padding: 5%;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1.5rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+
+#testimonials{
+background-color: rgba(255,88,100,1);
+color: #ffffff;
+}
+.testimonial-text{
+  font-family: 'Merriweather',serif;
+  font-size: 1.5rem;
+  line-height:2;
+}
+.carousel-item{
+    padding: 5% 15%;
+}
+.testimonial-image{
+      width: 15%;
+      border-radius: 100%;
+      margin: 20px;
+}
+
+/* Press Section */
+#press{
+  background-color: rgba(255,88,100,1);
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  padding: 10px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing{
+  padding: 100px;
+}
+.pricing-head{
+    font-size: 2.5rem;
+}
+.pricing-text{
+    font-size: 1rem;
+}
+.price-h2{
+  font-family: 'Merriweather',serif;
+  font-size: 1.5rem;
+  line-height:2;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+.gold{
+  background-color: gold;
+  color: #ffffff;
+  padding: 1%;
+}
+.platinum{
+  background-color: silver;
+  color: #ffffff;
+  padding: 1%;
+}
+
+
+/* Call to action */
+#cta{
+  background-color: rgba(253,41,123,1);
+  color: #ffffff;
+  padding: 7% 15%;
+}
+/* Footer Section */
+#footer{
+  background-color: #ffffff;
+  padding: 7% 15%;
+}
+#footer a{
+  color: black;
+}
+
+.social-icon{
+    margin: 3% 1%;
+}
+
+
+/* Responiveness for Tabs */
+@media (max-width:814px) {
+  .title-img{
+      left: 8%;
+      bottom: 3%;
+  }
+  h1{
+    font-size: 3rem;
+    padding-left: 7%;
+  }
+
+  .button-pad{
+    padding: 3% 0 3%;
+  }
+}
+/* Responiveness for mobiles */
+@media (max-width:439px){
+.button-pad{
+  text-align:center;
+}
+.title-img{
+    width: 100%;
+    left:4%;
+}
+}
